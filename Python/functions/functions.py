@@ -52,7 +52,7 @@
 # print(f"addition results:{result_add}")
 
 
-#You can add an operator to a function so the user can enter two numbers and perform arithmetic operations
+#You can add an input and an operator to a function so the user can enter two numbers and perform arithmetic operations
 #USE CASE:
 def calculator(operaton):
     def add(a, b):
@@ -80,14 +80,16 @@ def calculator(operaton):
     
     
 # # User input
+#We use strip to ensure that the use can enter empty space without givine an error.
+#We use lower() to ensure that the user can enter lowercase letters.
 operation = input("Enter operation (add, subtract, multiply, divide): ").strip().lower()
 a = float(input("Enter first number: "))
 b = float(input("Enter second number: "))
 
 # # Perform calculation
-operation_func = calculator(operation)
-if operation_func:
-    result = operation_func(a, b)
+calculation = calculator(operation)
+if calculation:
+    result = calculation(a, b)
     print(f"Result: {result}")
 else:
     print("Invalid operation")
