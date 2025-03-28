@@ -3,7 +3,7 @@
 #A file is named first then imported
 #Naming a module:
 #**module_name.function_name**
-#i.e  separate dby a dot
+#i.e  separate by a dot
 # 
 # def greeting(my_name):
 #     print("Hello" + my_name)
