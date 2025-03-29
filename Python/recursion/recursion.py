@@ -3,9 +3,10 @@
 def fact(n):
     if n==0:
      return 1
+    else:
 
-    return n * fact(n-1)
-result = fact(10)
+     return n * fact(n-1)
+result = fact(5)
 print(result)
 
  #General factorial rule 
@@ -21,3 +22,13 @@ print(result)
 # temp_c = (temp_f - 32) / 1.8
 
 # print(temp_c)
+
+
+# def fact(n):
+#     if n==0:
+#     return 1
+
+ 
+#     n==5
+#     return n* fact(n-1)! 
+ 
