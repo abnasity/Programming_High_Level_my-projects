@@ -49,15 +49,40 @@
     #Else, output "Neutral".
 
 
-ph = int(input("What is the pH level: "))
+# ph = int(input("What is the pH level: "))
 
-if ph < 0 or ph > 14:
-    print("Invalid! Please enter a value between 0 and 14.")
-elif ph > 7:
-    print("Basic")
-elif ph < 7:
-    print("Acidic")
-else:  # ph == 7
-    print("Neutral")
+# if ph < 0 or ph > 14:
+#     print("Invalid! Please enter a value between 0 and 14.")
+# elif ph > 7:
+#     print("Basic")
+# elif ph < 7:
+#     print("Acidic")
+# else:  # ph == 7
+#     print("Neutral")
 
-        
+#Working with factorials
+
+# def fact(n):
+#  if n == 0:
+#     return 1
+#  else:
+#     return n * fact(n-1)
+# result =fact(5)
+# print(result)
+
+#Working with an arithmetic calculator
+
+num1 = float(input("Enter the first number: "))
+operator = input("Enter operator i.e (+, -, *, /): ")
+num2 = float(input("Enter the second number: "))
+if operator == "+":
+    print(num1 + num2)
+elif operator == "-":
+    print(num1 - num2)
+elif operator == "*":
+    print(num1 * num2)
+elif operator == "/":
+    if num2 == 0:
+     print("Error!, cannot divide a number by zero")
+    else:
+     print(num1 / num2)
