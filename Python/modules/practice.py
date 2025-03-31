@@ -48,5 +48,10 @@ elif operator == "/":
 #Sets
 #Unordered collection of unique items
 
-    
+#Strings
+#String objects support concatenation and repetition operations
+
+#Numbers
+#Can be integers(whole numbers), Floats(with decimals) or complex numbers
+
     
