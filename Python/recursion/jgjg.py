@@ -18,3 +18,4 @@ def fact(n):
     return  n * fact(n-1)
 result = fact(9)
 print(result)
+
