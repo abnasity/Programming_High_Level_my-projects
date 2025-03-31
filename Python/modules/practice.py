@@ -36,7 +36,7 @@ elif operator == "/":
 
 
 #Lists
-
+#Mutable sequence object with different types of individual items
 
 #Tuples
 #Immutable lists
