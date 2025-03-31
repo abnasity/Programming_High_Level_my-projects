@@ -47,20 +47,31 @@
 # from math import pi 
 # print(pi)
 
-def greeting(name):
- print("Hello" + name)
+# def greeting(name):
+#  print("Hello" + name)
 
-student1 = {
-    "name" : "Abnas",
-    "Age" : 25,
-    "nationality" : "Kenyan" 
-}
-# from mymodule import student1
-# print(student1["nationality"])
-#OR
-import mymodule
-print(student1["Age"])
+# student1 = {
+#     "name" : "Abnas",
+#     "Age" : 25,
+#     "nationality" : "Kenyan" 
+# }
+# # from mymodule import student1
+# # print(student1["nationality"])
+# #OR
+# import mymodule
+# print(student1["Age"])
 
 
 
 #Note: When importing using the from keyword, do not use the module name when referring to elements in the module. Example: person1["age"], not mymodule.person1["age"]
+
+
+def fact(num):
+    if num == 0:
+        return 1
+    else:
+     return  num * fact(num-1)
+    
+result = fact(5)
+print(result)
+    
