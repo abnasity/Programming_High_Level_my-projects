@@ -32,10 +32,21 @@ elif operator == "/":
 #Dictionaries
 #Numbers
 #Strings
+#Sets
 
 
+#Lists
 
 
+#Tuples
+#Immutable lists
+
+
+#Dictionaries
+#Unordered mappings of name and value associations
+
+#Sets
+#Unordered collection of unique items
 
     
     
