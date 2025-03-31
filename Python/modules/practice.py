@@ -12,6 +12,7 @@
     
 #Create  a faulty calculator 
 
+
 num1 = float(input("Enter the first number: "))
 operator = input("Enter operator i.e (+, -, *, /): ")
 num2 = float(input("Enter the second number: "))
@@ -23,6 +24,14 @@ elif operator == "*":
     print(num1 - num2)
 elif operator == "/":
     print(num1 * num2)
+    
+    
+#Data types in python
+#Lists
+#Tuples
+#Dictionaries
+#Numbers
+#Strings
 
 
 
