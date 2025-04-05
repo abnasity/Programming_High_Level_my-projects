@@ -10,7 +10,11 @@ class Animal:  # Parent class
 class Dog(Animal):  # Child class (inherits from Animal)
         def speak(self):
             print("Dog barks")
-
+class Cat(Animal):
+        def speak(self):
+            print("Cat meows")
+cat = Cat()
+cat.speak()
 dog = Dog()
 dog.speak()  # Output: Dog barks
 
