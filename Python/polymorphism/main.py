@@ -6,6 +6,7 @@
 
 
 #Dynamic polymorphism
+#
 
 class Duck:
     def sound(self):
@@ -23,3 +24,5 @@ cat = Cat()
 
 make_sound(duck)  # ✅ Output: Quack!
 make_sound(cat)   # ✅ Output: Meow!
+
+#
