@@ -15,6 +15,8 @@ class Employee:
         else:
             return "intruder"
         
+    @classmethod
+        
 # employee1 = Employee(name="Calvin Kiptoo", company="Watu credit", pay="30000", in_list=True, in_blacklist=True)
 # print(f"{employee1.name} working at {employee1.company} earning {employee1.pay} is {employee1.employee_status()}")
 # employee2 = Employee(name="Leornard Kiptoo", company="Watu credit", pay="25000", in_list=False, in_blacklist=True)
