@@ -80,7 +80,7 @@ def calculator(operaton):
     
     
 # # User input
-#We use strip to ensure that the use can enter empty space without givine an error.
+#We use strip to ensure that the use can enter empty space without having errors.
 #We use lower() to ensure that the user can enter lowercase letters.
 operation = input("Enter operation (add, subtract, multiply, divide): ").strip().lower()
 a = float(input("Enter first number: "))
