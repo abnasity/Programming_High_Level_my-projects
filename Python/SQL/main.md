@@ -8,6 +8,7 @@ ALTER USER name WITH SUPERUSER
 
 ## DELETE USER
  DROP USER name;
+ DROP USER username;
 
 ## creating a superuser in SQL
 sudo adduser abnas
