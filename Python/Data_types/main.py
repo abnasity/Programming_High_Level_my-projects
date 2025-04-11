@@ -64,7 +64,7 @@ tuple	✅ Yes	(2, 3) * 2 → (2, 3, 2, 3)
 
 #****The following data types can be converted to other data types/Type casting*****
 
-rom → To	✅ Can Convert?	Example
+From → To	✅ Can Convert?	Example
 int → float	✅ Yes	float(5) → 5.0
 float → int	✅ Yes	int(3.9) → 3
 int → str	✅ Yes	str(100) → "100"
