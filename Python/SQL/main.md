@@ -1,3 +1,13 @@
+
+## CREATE USER
+  CREATE USER name WITH PASSWORD 'xxxx'
+
+## CREATE SUPERUSER
+CREATE USER name WITH PASSWORD 'xxxx' SUPERUSER
+ALTER USER name WITH SUPERUSER
+
+
+
 ## creating a superuser in SQL
 sudo adduser abnas
 
