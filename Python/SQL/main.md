@@ -6,7 +6,8 @@
 CREATE USER name WITH PASSWORD 'xxxx' SUPERUSER
 ALTER USER name WITH SUPERUSER
 
-
+## DELETE USER
+ DROP USER name;
 
 ## creating a superuser in SQL
 sudo adduser abnas
