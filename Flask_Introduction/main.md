@@ -18,3 +18,15 @@ def home():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+
+## ▶️ 2. Run the Flask app
+
+In your terminal (with virtual environment activated):
+
+python app.py
+
+You should see output like:
+
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+
