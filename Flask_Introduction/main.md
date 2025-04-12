@@ -30,3 +30,12 @@ You should see output like:
 
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 
+
+## 🛠 Tip: Want to auto-reload when you change the code?
+
+Set the FLASK_ENV to development. This enables debug mode.
+Linux/macOS:
+
+export FLASK_APP=app.py
+export FLASK_ENV=development
+flask run
