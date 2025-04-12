@@ -17,3 +17,7 @@
  16. **object**: The base class for all classes in Python, used for creating user-defined classes.
  17. **slice**: Represents a slice object, used for slicing sequences.
  18. **Ellipsis**: Represents the ellipsis object, used in advanced indexing and slicing.   
+    19. **NotImplemented**: A singleton object used to indicate that an operation is not implemented for a specific type.
+    20. **type**: Represents the type of an object, used for type checking and introspection.
+
+## OPERATORS
