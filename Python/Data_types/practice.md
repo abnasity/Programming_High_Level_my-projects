@@ -29,3 +29,11 @@
         5. **Floor Division (//)**: Divides one number by another and returns the largest integer less than or equal to the result.
         6. **Modulus (%)**: Returns the remainder of a division operation.
         7. **Exponentiation (**)**: Raises one number to the power of another.
+    2. **Comparison operators- used to compare two values.
+        1. **Equal (==)**: Checks if two values are equal.
+        2. **Not Equal (!=)**: Checks if two values are not equal.
+        3. **Greater Than (>)**: Checks if the left value is greater than the right value.
+        4. **Less Than (<)**: Checks if the left value is less than the right value.
+        5. **Greater Than or Equal To (>=)**: Checks if the left value is greater than or equal to the right value.
+        6. **Less Than or Equal To (<=)**: Checks if the left value is less than or equal to the right value.  
+    3. **Logical operators- used to combine conditional statements.
