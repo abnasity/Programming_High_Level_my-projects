@@ -37,3 +37,16 @@
         5. **Greater Than or Equal To (>=)**: Checks if the left value is greater than or equal to the right value.
         6. **Less Than or Equal To (<=)**: Checks if the left value is less than or equal to the right value.  
     3. **Logical operators- used to combine conditional statements.
+        1. **And**: Returns True if both statements are true.
+        2. **Or**: Returns True if at least one of the statements is true.
+        3. **Not**: Reverses the result of a condition (True becomes False and vice versa).
+    4. **Assignment operators- used to assign values to variables.
+        1. **Assignment (=)**: Assigns a value to a variable.
+        2. **Add and Assign (+=)**: Adds a value to a variable and assigns the result to that variable.
+        3. **Subtract and Assign (-=)**: Subtracts a value from a variable and assigns the result to that variable.
+        4. **Multiply and Assign (*=)**: Multiplies a variable by a value and assigns the result to that variable.
+        5. **Divide and Assign (/=)**: Divides a variable by a value and assigns the result to that variable.
+        6. **Floor Divide and Assign (//=)**: Performs floor division on a variable by a value and assigns the result to that variable.
+        7. **Modulus and Assign (%=)**: Takes the modulus of a variable by a value and assigns the result to that variable.
+        8. **Exponentiate and Assign (**=)**: Raises a variable to the power of a value and assigns the result to that variable.
+    
