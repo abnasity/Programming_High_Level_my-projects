@@ -21,3 +21,11 @@
     20. **type**: Represents the type of an object, used for type checking and introspection.
 
 ## OPERATORS
+    1. **Arithmetic operators- used for mathematical operations.
+        1. **Addition (+)**: Adds two numbers.
+        2. **Subtraction (-)**: Subtracts one number from another.
+        3. **Multiplication (*)**: Multiplies two numbers.
+        4. **Division (/)**: Divides one number by another (returns float).
+        5. **Floor Division (//)**: Divides one number by another and returns the largest integer less than or equal to the result.
+        6. **Modulus (%)**: Returns the remainder of a division operation.
+        7. **Exponentiation (**)**: Raises one number to the power of another.
