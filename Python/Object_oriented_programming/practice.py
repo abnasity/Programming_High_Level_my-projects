@@ -47,7 +47,7 @@
 #     def employee_status(self):
 #         if self.in_list and self.in_black_list:
 #             return "Employed"
-#         elif not self.in_list:
+#         elif self.in_black_list:
 #             return "Visitor"
 #         else:
 #             return "intruder"    
@@ -56,7 +56,7 @@
 # print(f"{employee1.name} working for {employee1.company} is {employee1.employee_status()}")
 # employee2 = Employee(name="Onesmus", company="Hiline", in_list=False, in_black_list=True)
 # print(f"{employee2.name} working for {employee2.company} is {employee2.employee_status()}")
-# employee3 = Employee(name="Natasha", company="M-kopa", in_list=True, in_black_list=False)
+# employee3 = Employee(name="Natasha", company="M-kopa", in_list=False, in_black_list=False)
 # print(f"{employee3.name} working for {employee3.company} is an {employee3.employee_status()}")
 
 class User:
