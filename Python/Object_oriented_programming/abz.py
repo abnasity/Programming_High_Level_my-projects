@@ -26,7 +26,7 @@ class User:
         self.is_logged_in = is_logged_in
         self.is_admin = is_admin
         
-    def user_status(self):
+    def user_status(self) -> str:
         if self.is_admin and self.is_logged_in:
             return "Dashboard"
         elif not self.is_logged_in:
