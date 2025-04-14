@@ -27,9 +27,9 @@ class User:
         self.is_admin = is_admin
         
     def user_status(self) -> str:
-        if self.is_admin and self.is_logged_in:
+        if  self.is_admin and self.is_logged_in:
             return "Dashboard"
-        elif not self.is_logged_in:
+        elif not self.is_admin:
             return "Login page"
         else:
             return "Newsfeed"
@@ -37,7 +37,7 @@ class User:
 user1 = User(name="abnas", is_admin=True, is_logged_in=True)
 print(f"{user1.name} is directed to {user1.user_status()}")
 
-user2 = User(name="collo", is_admin=True, is_logged_in=False)
+user2 = User(name="collo", is_admin=False, is_logged_in=False)
 print(f"{user2.name} is directed to {user2.user_status()}")
 
 user3 = User(name="2pac", is_admin=False, is_logged_in=False)
