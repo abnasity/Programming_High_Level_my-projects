@@ -16,7 +16,9 @@ class Student:
         
         
         
-influencer = Student(name="Enock", age=23, id=40498987, is_admin=False, is_logged_in=False)
+influencer = Student(name="Enock", age=23, id=40498987, is_admin=True, is_logged_in=True) #Directed to dashboard
 print(f"{influencer.name} aged {influencer.age} has an id number of {influencer.id} is directed to {influencer.influencer_status()}")
-        
+
+influencer = Student(name="Enock", age=23, id=40498987, is_logged_in=True) #Directed to login page
+print(f"{influencer.name} aged {influencer.age} has an id number of {influencer.id} is directed to {influencer.influencer_status()}")
         
