@@ -66,21 +66,49 @@ class User(db.Model):
 
 ## CRUD OPERATIONS
 # Create
+-Add a new record 
 new_user = User(name='John Doe',)
 db.session.add(new_user)
 db.session.commit()
 
 # Read
+-Retrieve data from the database
+all_users = User.query.all()
+single_
+# ****Read***
 user = User.query.filter_by(name='John Doe').first()
 
 # Update
+-Change an existing record
 user.name = 'Jane Doe'
 db.session.commit()
 
 # Delete
+-Remove a record
+# Delete a user
+user = User.query.get(1)
+if user:
 db.session.delete(user)
 db.session.commit()
+# This code sets up a simple Flask web application with SQLAlchemy support, allowing you to perform CRUD operations on a User model.
 
 
+## Other flask extensions
+- Flask-WTF: For handling forms and CSRF protection.
+- Flask-Migrate: For database migrations.
+- Flask-Login: For user authentication.
+- Flask-Mail: For sending emails.
+- Flask-RESTful: For building REST APIs.
 
 
+## Extra Features in Flask-SQLAlchemy
+
+    Model.query – shorthand for session.query().
+
+    paginate() – built-in support for pagination.
+
+    get_or_404(), first_or_404() – helpful for Flask-based APIs.
+
+## 🔹 Common Config Options
+
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False  # avoid overhead
