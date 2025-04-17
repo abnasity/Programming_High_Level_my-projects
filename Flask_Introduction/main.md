@@ -50,3 +50,37 @@ flask run
 -It adds SQLAlchey support ti a Flask Application.
 -It is a wrapper around SQL Alchemy that makes it easier to use with Flask.
 
+## CONFIGURATION OF FLASK-ALCHEMY
+from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
+
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///mydatabase.db'
+db = SQLAlchemy(app)
+
+## CREATING A MODEL
+class User(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(80), nullable=False)
+    email = db.Column(db.String(120), unique=True, nullable=False)
+
+## CRUD OPERATIONS
+# Create
+new_user = User(name='John Doe',)
+db.session.add(new_user)
+db.session.commit()
+
+# Read
+user = User.query.filter_by(name='John Doe').first()
+
+# Update
+user.name = 'Jane Doe'
+db.session.commit()
+
+# Delete
+db.session.delete(user)
+db.session.commit()
+
+
+
+
