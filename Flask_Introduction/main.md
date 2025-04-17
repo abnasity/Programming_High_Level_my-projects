@@ -57,6 +57,27 @@ Setup      | Manual engine/session management                  | Simplified setu
 Syntax     | Verbose, full control                             | Cleaner, Flask-friendly syntax
 Ideal For  | Large/custom apps, non-Flask projects             | Flask apps, rapid development
 
+
+## 🔹 What is SQLAlchemy?
+
+    Core Python library for working with databases.
+
+    Provides two layers:
+
+        SQL Expression Language (low-level, like writing raw SQL in Python).
+
+        ORM (Object Relational Mapping — maps classes to DB tables).
+
+    Can be used in any Python project (Flask, Django, FastAPI, or even without a framework).
+
+   ## 🔹 What is Flask-SQLAlchemy?
+
+    A thin wrapper around SQLAlchemy made for Flask.
+
+    Simplifies configuration and common patterns.
+
+    Adds Flask-friendly helpers like db.Model, Model.query, and auto-managed sessions.
+
 ## CONFIGURATION OF FLASK-ALCHEMY
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
