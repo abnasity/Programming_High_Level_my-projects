@@ -50,6 +50,13 @@ flask run
 -It adds SQLAlchey support ti a Flask Application.
 -It is a wrapper around SQL Alchemy that makes it easier to use with Flask.
 
+## Feature |             SQLAlchemy                            |               Flask-SQLAlchemy
+What it is | A powerful database toolkit and ORM for Python    | A Flask extension that integrates SQLAlchemy with Flask
+Use Case   | Standalone Python apps or advanced setups         |         Flask web apps
+Setup      | Manual engine/session management                  | Simplified setup via Flask config
+Syntax     | Verbose, full control                             | Cleaner, Flask-friendly syntax
+Ideal For  | Large/custom apps, non-Flask projects             | Flask apps, rapid development
+
 ## CONFIGURATION OF FLASK-ALCHEMY
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
