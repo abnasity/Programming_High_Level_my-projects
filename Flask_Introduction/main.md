@@ -41,13 +41,45 @@ export FLASK_ENV=development
 flask run
 
 
+## FLASK-SQLALCHEMY PROPERTIES
+A Flask App has its own properties and configurations. Here are some common ones:
+[]: 
+[]: - `SQLALCHEMY_DATABASE_URI`: The database URI.
+[]: - `SQLALCHEMY_TRACK_MODIFICATIONS`: Set to False to disable track modifications.
+[]: - `SQLALCHEMY_ECHO`: Set to True to log SQL queries.
+[]: 
+[]: ## 🔹 Flask-SQLAlchemy vs SQLAlchemy
+[]: 
+[]: - Flask-SQLAlchemy is a wrapper around SQLAlchemy that provides additional features and simplifies the integration with Flask.
+[]: - It provides a more Flask-like API and integrates better with Flask's application context.
+[]: 
+[]: ## 🔹 Flask-SQLAlchemy vs Flask-Migrate
+[]: 
+[]: - Flask-SQLAlchemy is for database ORM and management.
+[]: - Flask-Migrate is for handling database migrations.
+[]: 
+[]: ## 🔹 Flask-SQLAlchemy vs SQLAlchemy ORM
+[]: 
+[]: - SQLAlchemy ORM is the core library for object-relational mapping.
+[]: - Flask-SQLAlchemy is a Flask extension that builds on top of SQLAlchemy ORM.
+[]: 
+[]: ## 🔹 Flask-SQLAlchemy vs SQLAlchemy Core
+[]: 
+[]: - SQLAlchemy Core is the low-level API for SQLAlchemy.
+[]: - Flask-SQLAlchemy is a higher-level abstraction that simplifies the usage of SQLAlchemy in Flask applications.
+[]: 
+[]: ## 🔹 Flask-SQLAlchemy vs Flask-SQLite
+[]: 
+[]: - Flask-SQLAlchemy is a general-purpose ORM for various databases.
+[]: - Flask-SQLite is specifically for SQLite databases.
+
 ## SQL Alchemy  VS flask-alchemy
 # SQL Alchemy
 -SQL Alchemy is a powerful SQL toolkit and Object Relational Mapper (ORM) for Python.
 -It is a powerful python library that provides a set of high level API tools for working with relational databases.
 # flask-alchemy
 -flask-alchemy is a Flask extension that adds SQL Alchemy support to Flask applications.
--It adds SQLAlchey support ti a Flask Application.
+-It adds SQLAlchey support to a Flask Application.
 -It is a wrapper around SQL Alchemy that makes it easier to use with Flask.
 
 ## Feature |             SQLAlchemy                            |               Flask-SQLAlchemy
@@ -140,3 +172,12 @@ db.session.commit()
 ## 🔹 Common Config Options
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False  # avoid overhead
+app.config['SQLALCHEMY_ECHO'] = True  # log SQL queries
+
+
+## When Should You Use Which?
+Scenario	Use
+You're building a Flask web app	✅ Flask-SQLAlchemy
+You need maximum control or are not using Flask	✅ SQLAlchemy
+You want to scale up with custom DB logic	✅ SQLAlchemy
+You’re doing quick prototyping or REST APIs in Flask	✅ Flask-SQLAlchemy
