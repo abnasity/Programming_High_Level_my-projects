@@ -4,3 +4,18 @@ print(my_dict.values() == my_dict.values()) #The output will be false because th
 # The values() method returns a view object that displays a list of all the values in the dictionary.
 # The view object is dynamic and reflects any changes made to the dictionary.
 print(my_dict.values() is not my_dict.values()) #The output will be true because the two calls to my_dict.values() return different view objects.
+
+
+
+
+fruit_stores = {'apple': {'store1': 1.0, 'store2': 1.5},
+               'banana': {'store1': 2.0, 'store2': 1.8}
+         }
+#Write a python function that takes a nested dictionary where the inner dictionaries represent items and their prices in different stores. The function should return a new dictionary where the keys are the items and the store with the lowest price as the value. For example, the fruits_stores nested dictionary above should return {'apple': 'store1', 'banana': 'store2'}.
+def find_lowest_price_store(fruit_stores):
+    lowest_price_stores = {}
+    for fruit, stores in fruit_stores.items():
+        lowest_store = min(stores, key=stores.get)
+        lowest_price_stores[fruit] = lowest_store
+    return lowest_price_stores
+print(find_lowest_price_store(fruit_stores)) #Output: {'apple': 'store1', 'banana': 'store2'}
