@@ -19,3 +19,17 @@ def find_lowest_price_store(fruit_stores):
         lowest_price_stores[fruit] = lowest_store
     return lowest_price_stores
 print(find_lowest_price_store(fruit_stores)) #Output: {'apple': 'store1', 'banana': 'store2'}
+
+
+fruits = ['apple', 'banana', 'apple', 'cherry']
+
+#Given a list of strings, write a python function that returns a dictionary where the keys are the strings and the values are the number of times each string appears in the list. For example, the fruits list above should return {'apple': 2, 'banana': 1, 'cherry': 1}.
+def count_fruits(fruits):
+    fruit_count = {}
+    for fruit in fruits:
+        if fruit in fruit_count:
+            fruit_count[fruit] += 1
+        else:
+            fruit_count[fruit] = 1
+    return fruit_count
+print(count_fruits(fruits)) #Output: {'apple': 2, 'banana': 1, 'cherry': 1}
