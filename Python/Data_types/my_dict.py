@@ -1,3 +1,21 @@
+
+person = {
+    "name" : "Alice",
+    "Age" : 24,
+    "City" : "New York"
+}
+
+Car = {
+    "Brand" = "Mercedes",
+    "Year" = 2009,
+    "FUel" = "Diesel"
+}
+
+
+
+
+
+
 my_dict = {"name": "John"}
 print(my_dict.values() is my_dict.values())
 print(my_dict.values() == my_dict.values()) #The output will be false because the two calls to my_dict.values() return different view objects.
