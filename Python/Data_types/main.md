@@ -14,29 +14,29 @@
 
 #***The following items can be ordered*****
 #1. Lists
-#2. Tuples
-#3. Strings
+#2. Strings
+#3. Tuples
 
 
 
 #****The following items can be indexed *****
 
 #1. Lists
-#2. Tuples
-#3. Strings
+#2. Strings
+#3. Tuples
 
 
 
 #******The following items can be muted/changed****
 #1. Lists
-#2. Dictionaries
-#3. Sets
+#2. Sets
+#3. Dictionaries - Keys must be unique, but values can be changed
 
 #******The following items allow duplicates**
 #1. Lists
-#2. Tuples
-#3. Strings
-#4. Dictionaries - Keys must be unique, but values can be duplicated
+#2. Strings
+#3. Tuples
+
 
 
 
