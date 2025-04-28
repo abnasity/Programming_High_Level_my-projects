@@ -1,4 +1,5 @@
 
+# Examples of dictionaries in python
 person = {
     "name" : "Alice",
     "Age" : 24,
@@ -6,9 +7,9 @@ person = {
 }
 
 Car = {
-    "Brand" = "Mercedes",
-    "Year" = 2009,
-    "FUel" = "Diesel"
+    "Brand" : "Mercedes",
+    "Year" : 2009,
+    "FUel" : "Diesel",
 }
 
 
