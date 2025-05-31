@@ -5,7 +5,9 @@
 4. **bool**: Boolean type, used for True/False values.
 5. **list**: List type, used for ordered collections of items.
 6. **tuple**: Tuple type, used for ordered, immutable collections of items.
-7. **dict**: Dictionary type, used for key-value pairs.
+7. **dict**: Dictionary type, used for key-value pairs. has keys and values separated by a colon (:), and items separated by commas (,).
+   - Example: `{"key1": "value1", "key2": "value2"}`.
+   - Keys must be unique, but values can be changed.
 8. **set**: Set type, used for unordered collections of unique items.
 9. **NoneType**: Represents the absence of a value or a null value.
 10. **bytes**: Immutable sequence of bytes, used for binary data.
