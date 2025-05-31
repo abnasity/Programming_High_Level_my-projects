@@ -1,5 +1,9 @@
 
 # Examples of dictionaries in python
+Example ={
+      "key1": "value1",
+       "key2": "value2"
+       }
 person = {
     "name" : "Alice",
     "Age" : 24,
@@ -12,6 +16,7 @@ Car = {
     "FUel" : "Diesel",
 }
 
+
 phone = {
      "Brand" : "Nokia",
      "Model" : "3310",
@@ -19,7 +24,11 @@ phone = {
 }
 
 
-
+imei = {
+    
+    
+    
+}
 
 
 
