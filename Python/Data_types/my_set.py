@@ -2,4 +2,6 @@
 
 books = {'Encyclopaedia', 'Social studies', 'Maths'}
 
-Teachers = {'Mufti', 'Rop', 'Daisy'},
+Teachers = {'Mufti', 'Rop', 'Daisy'}
+
+students = {'Calvin', 'John', 'Jane', 'Doe', 'Alice'}
