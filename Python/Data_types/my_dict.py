@@ -12,6 +12,12 @@ Car = {
     "FUel" : "Diesel",
 }
 
+phone = {
+     "Brand" : "Nokia",
+     "Model" : "3310",
+        "Year" : 2000,
+}
+
 
 
 
