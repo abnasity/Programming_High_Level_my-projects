@@ -4,6 +4,18 @@ Example ={
       "key1": "value1",
        "key2": "value2"
        }
+
+# Example of a dictionary with mixed data types
+
+movie = {   
+    "title": "Inception",
+    "year": 2010,
+    "director": "Christopher Nolan",
+    "cast": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"],
+    "rating": 8.8
+}
+
+
 person = {
     "name" : "Alice",
     "Age" : 24,
