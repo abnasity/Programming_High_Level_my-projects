@@ -7,3 +7,6 @@ laptops = ['Dell', 'HP', 'Lenovo', 'Apple']
 
 #lists with mixed data types
 mixed_list = ['John', 25, 5.9, True, None, ['nested', 'list'], {'key': 'value'}]
+
+#lists with different data types
+different_data_types = [42, 3.14, 'Hello', True, None, ['nested', 'list'], {'key': 'value'}]
