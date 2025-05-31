@@ -1,5 +1,5 @@
 ## DATA TYPES
- 
+ 1. **int**: Integer type, used for whole numbers.
 2. **float**: Floating-point type, used for decimal numbers.
 3. **str**: String type, used for text.
 4. **bool**: Boolean type, used for True/False values.
