@@ -51,6 +51,8 @@ student = {
 }
 
 
+# Accessing values
+print(student["name"])  # Output: Alice
 
 
 
