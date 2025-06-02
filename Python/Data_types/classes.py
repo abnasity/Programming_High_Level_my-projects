@@ -9,3 +9,8 @@ class X6(Bmw):
 
 print(issubclass(X6, (Car, int))) 
 # Output: True
+
+# class definitions
+class Animal:
+    def speak(self):
+        return "Animal speaks"
