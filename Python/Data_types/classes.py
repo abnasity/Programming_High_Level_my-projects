@@ -77,3 +77,6 @@ class Shape:
         raise NotImplementedError("Subclasses must implement this method")
     def perimeter(self):
         raise NotImplementedError("Subclasses must implement this method")
+    def description(self):
+        return "This is a shape"
+class Circle(Shape):
