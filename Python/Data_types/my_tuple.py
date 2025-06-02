@@ -25,3 +25,12 @@ t4 = 1, 2, 3  # This is also a tuple
 # looping through a tuple
 for item in t3:
     print(item)
+    
+# Tuple unpacking
+a, b, c = t
+print(a)  # Output: 1
+print(b)  # Output: 2
+person = ("Alice", 30)
+name, age = person
+print(name)  # Alice
+print(age)   # 30
