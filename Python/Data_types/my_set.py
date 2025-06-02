@@ -15,3 +15,6 @@ imei = {'356789123456789', '356789123456788', '356789123456787', '35678912345678
 fruits = {"apple", "banana", "cherry", "apple"}
 
 print(fruits)  # Output: {'banana', 'cherry', 'apple'} (no duplicates)
+
+# Add an item
+fruits.add("orange")
