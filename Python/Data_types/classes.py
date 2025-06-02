@@ -20,3 +20,6 @@ class Dog(Animal):
 class Cat(Animal):
     def speak(self):
         return "Cat meows"
+# polymorphism example
+def animal_sound(animal):
+    return animal.speak()
