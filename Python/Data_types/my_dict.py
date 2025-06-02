@@ -35,13 +35,16 @@ phone = {
         "Year" : 2000,
 }
 
+#Student db using dictionaries
+# A dictionary of students, where each student has a unique ID
+students_db = {
+    "S001": {
+        "name": "Alice",
+        "age": 20,
+        "major": "Computer Science",
+        "grades": [85, 90, 92]
+    }},
 
-imei = {
-    digits 
-    
-    
-    
-}
 
 # Creating a dictionary
 student = {
