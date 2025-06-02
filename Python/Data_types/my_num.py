@@ -49,3 +49,7 @@ def seconds_to_hours(seconds):
     minutes = (seconds % 3600) // 60
     remaining_seconds = seconds % 60
     return f"{hours} hours, {minutes} minutes, {remaining_seconds} seconds"
+
+# TO use the function
+seconds = 3661
+print(seconds_to_hours(seconds))
