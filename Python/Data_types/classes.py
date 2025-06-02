@@ -86,3 +86,39 @@ class Circle(Shape):
         return "Area of Circle"
     def perimeter(self):
         return "Perimeter of Circle"
+class Square(Shape):
+    def __init__(self):
+        super().__init__()
+    def area(self):
+        return "Area of Square"
+    def perimeter(self):
+        return "Perimeter of Square"
+class Rectangle(Shape):
+    def __init__(self):
+        super().__init__()
+    def area(self):
+        return "Area of Rectangle"
+    def perimeter(self):
+        return "Perimeter of Rectangle"
+# example usage
+shapes = [Circle(), Square(), Rectangle()]
+for shape in shapes:
+    print(shape.description())
+    print(shape.area())
+    print(shape.perimeter())
+    print()  # for better readability
+# example of multiple inheritance
+class A:
+    def method_a(self):
+        return "Method A from class A"
+class B:
+    def method_b(self):
+        return "Method B from class B"
+class C(A, B):
+    def method_c(self):
+        return "Method C from class C"
+# example usage
+c_instance = C()
+print(c_instance.method_a())  # Output: Method A from class A
+print(c_instance.method_b())  # Output: Method B from class B
+print(c_instance.method_c())  # Output: Method C from class C
