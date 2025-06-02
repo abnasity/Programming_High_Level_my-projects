@@ -82,3 +82,5 @@ class Shape:
 class Circle(Shape):
     def __init__(self):
         super().__init__()
+    def area(self):
+        return "Area of Circle"
