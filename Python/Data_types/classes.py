@@ -147,3 +147,12 @@ class MyClass:
 # example usage
 my_instance = MyClass()
 print(my_instance.class_method())  # Output: I am a class variable
+
+# exa,mple of static method
+class MyStaticClass:
+    @staticmethod
+    def static_method():
+        return "I am a static method"
+# example usage
+my_static_instance = MyStaticClass()
+print(my_static_instance.static_method())  # Output: I am a static method
