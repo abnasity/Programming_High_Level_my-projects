@@ -19,3 +19,6 @@ print(students[0])  # Output: Alice
 
 # Adding an element
 students.append("Diana")
+
+# Removing an element
+students.remove("Bob")
