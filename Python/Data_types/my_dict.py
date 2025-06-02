@@ -81,6 +81,9 @@ grades = students_db[student_id]["grades"]
 average = sum(grades) / len(grades)
 print(f"{students_db[student_id]['name']}'s average grade: {average}")
 
+# Remove a student
+del students_db["S002"]
+
 
     
     
