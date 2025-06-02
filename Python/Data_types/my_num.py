@@ -36,4 +36,11 @@ print("Average Score:", average)
 celsius = 25
 fahrenheit = (celsius * 9/5) + 32
 print("Fahrenheit:", fahrenheit)
-# Calculate the area of a circle
+
+# calculate area of a circle
+import math
+radius = 5
+area = math.pi * (radius ** 2)
+print("Area of Circle:", area)
+
+
