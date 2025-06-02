@@ -71,3 +71,7 @@ account = BankAccount(100)
 print(account.deposit(50))  # Deposited: 50, New Balance: 150
 print(account.withdraw(30))  # Withdrew: 30, New Balance: 120
 print(account.get_balance())  # 120
+# example of abstraction
+class Shape:
+    def area(self):
+        raise NotImplementedError("Subclasses must implement this method")
