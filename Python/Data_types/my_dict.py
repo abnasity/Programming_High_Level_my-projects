@@ -37,10 +37,24 @@ phone = {
 
 
 imei = {
+    digits 
     
     
     
 }
+
+# Creating a dictionary
+student = {
+
+
+
+
+
+
+
+
+
+
 
 
 
