@@ -44,6 +44,10 @@ for student in students:
     
 # Common list operations
 # 1. Creating a list
-my_list = [1, 2, 3, 4, 5]
+numbers = [1, 2, 3, 4, 5]
 
 # 2. Accessing elements
+
+
+# Length of list
+print(len(numbers))  # 5
