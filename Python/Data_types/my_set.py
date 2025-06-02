@@ -50,3 +50,7 @@ print(set1 ^ set2)   # {1, 2, 5, 6}
 students = ["Alice", "Bob", "Charlie", "Alice", "Bob"]
 unique_students = set(students)
 print(unique_students)  # {'Charlie', 'Alice', 'Bob'}
+# Real-World Example: Inventory Management
+inventory = {"apple", "banana", "orange", "apple"}
+print(inventory)  # {'banana', 'orange', 'apple'} (no duplicates)
+# Real-World Example: Social Media Followers
