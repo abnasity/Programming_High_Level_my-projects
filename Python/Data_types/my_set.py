@@ -42,3 +42,6 @@ print(set1 & set2)   # {3, 4}
 
 # Difference
 print(set1 - set2)   # {1, 2}
+
+# Symmetric Difference (in either, but not both)
+print(set1 ^ set2)   # {1, 2, 5, 6}
