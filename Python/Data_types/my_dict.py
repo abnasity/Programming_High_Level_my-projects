@@ -53,9 +53,10 @@ student = {
 
 # Accessing values
 print(student["name"])  # Output: Alice
+print(student["age"])   # Output: 20
 
-
-
+# Adding a new key-value pair
+student["grade"] = "A"
 
 
 
