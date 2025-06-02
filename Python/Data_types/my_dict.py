@@ -45,6 +45,12 @@ imei = {
 
 # Creating a dictionary
 student = {
+     "name": "Alice",
+    "age": 20,
+    "major": "Computer Science"
+}
+
+
 
 
 
