@@ -18,3 +18,6 @@ print(fruits)  # Output: {'banana', 'cherry', 'apple'} (no duplicates)
 
 # Add an item
 fruits.add("orange")
+
+# Remove an item
+fruits.remove("banana")
