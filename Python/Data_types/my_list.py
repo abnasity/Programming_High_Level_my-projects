@@ -54,3 +54,7 @@ print(len(numbers))  # 5
 
 # Slicing
 print(numbers[1:4])  # [2, 3, 4]
+
+# Sorting
+numbers.sort()       # Ascending
+numbers.sort(reverse=True)  # Descending
