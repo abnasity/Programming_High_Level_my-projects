@@ -25,3 +25,7 @@ students.remove("Bob")
 
 # Updating an element
 students[1] = "Carlos"  # Replaces Charlie with Carlos
+
+# Looping through a list
+for student in students:
+    print(student)
