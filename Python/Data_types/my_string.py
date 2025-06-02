@@ -33,5 +33,9 @@ s.split()        # ['Hello', 'World']
 # String formatting
 formatted_string = f"{name} says: {greeting}"  # f-string
 
+# String interpolation with f-strings
+name = "Bob"
+age = 25
+f"Hello, my name is {name} and I am {age} years old."
 
 
