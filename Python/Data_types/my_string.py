@@ -8,5 +8,6 @@ s3 = """This is a
 multiline string."""
 
 # Common string operations
+# Concatenation
 name = "Alice"
 greeting = "Hello, " + name
