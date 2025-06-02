@@ -34,3 +34,10 @@ person = ("Alice", 30)
 name, age = person
 print(name)  # Alice
 print(age)   # 30
+
+# Using asterisk for unpacking
+def unpack_tuple(t):
+    a, b, *rest = t
+    return a, b, rest
+result = unpack_tuple((1, 2, 3, 4, 5))
+print(result)  # Output: (1, 2, [3, 4, 5])
