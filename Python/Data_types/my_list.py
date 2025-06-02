@@ -16,3 +16,6 @@ students = ["Alice", "Bob", "Charlie"]
 
 #  Accessing elements
 print(students[0])  # Output: Alice
+
+# Adding an element
+students.append("Diana")
