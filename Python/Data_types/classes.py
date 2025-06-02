@@ -156,3 +156,35 @@ class MyStaticClass:
 # example usage
 my_static_instance = MyStaticClass()
 print(my_static_instance.static_method())  # Output: I am a static method
+# example of property decorator
+class Person:
+    def __init__(self, name, age):
+        self._name = name  # protected attribute
+        self._age = age    # protected attribute
+
+    @property
+    def name(self):
+        return self._name
+
+    @property
+    def age(self):
+        return self._age
+
+    @name.setter
+    def name(self, value):
+        self._name = value
+
+    @age.setter
+    def age(self, value):
+        if value >= 0:
+            self._age = value
+        else:
+            raise ValueError("Age cannot be negative")
+# example usage
+person = Person("Alice", 30)
+print(person.name)  # Output: Alice
+print(person.age)   # Output: 30
+person.name = "Bob"
+print(person.name)  # Output: Bob
+person.age = 25
+print(person.age)   # Output: 25
