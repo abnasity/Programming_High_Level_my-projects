@@ -23,3 +23,7 @@ class Cat(Animal):
 # polymorphism example
 def animal_sound(animal):
     return animal.speak()
+
+# example usage
+dog = Dog()
+cat = Cat() 
