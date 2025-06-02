@@ -45,3 +45,8 @@ print(set1 - set2)   # {1, 2}
 
 # Symmetric Difference (in either, but not both)
 print(set1 ^ set2)   # {1, 2, 5, 6}
+
+#  Real-World Example: Removing Duplicate Student Names
+students = ["Alice", "Bob", "Charlie", "Alice", "Bob"]
+unique_students = set(students)
+print(unique_students)  # {'Charlie', 'Alice', 'Bob'}
