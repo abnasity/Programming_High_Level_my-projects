@@ -6,3 +6,7 @@ s1 = 'Hello'
 s2 = "World"
 s3 = """This is a
 multiline string."""
+
+# Common string operations
+name = "Alice"
+greeting = "Hello, " + name
