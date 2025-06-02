@@ -29,3 +29,10 @@ students[1] = "Carlos"  # Replaces Charlie with Carlos
 # Looping through a list
 for student in students:
     print(student)
+    
+# A list of students, where each student is represented by a dictionary
+students = [
+    {"name": "Alice", "grades": [85, 90, 88]},
+    {"name": "Bob", "grades": [75, 80, 70]},
+    {"name": "Charlie", "grades": [95, 92, 96]}
+]
