@@ -30,5 +30,8 @@ s.strip()        # 'Hello World'
 s.replace("World", "Python")  # '  Hello Python  '
 s.split()        # ['Hello', 'World']
 "hello" in s     # True
+# String formatting
+formatted_string = f"{name} says: {greeting}"  # f-string
+
 
 
