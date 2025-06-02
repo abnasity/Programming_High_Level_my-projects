@@ -39,3 +39,6 @@ print(set1 | set2)   # {1, 2, 3, 4, 5, 6}
 
 # Intersection (common elements)
 print(set1 & set2)   # {3, 4}
+
+# Difference
+print(set1 - set2)   # {1, 2}
