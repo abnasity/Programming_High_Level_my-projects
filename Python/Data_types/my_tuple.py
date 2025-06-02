@@ -21,3 +21,7 @@ print(t2[1])  # Output: 'b'
 
 # without parentheses
 t4 = 1, 2, 3  # This is also a tuple
+
+# looping through a tuple
+for item in t3:
+    print(item)
