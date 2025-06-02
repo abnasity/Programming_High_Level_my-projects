@@ -43,4 +43,9 @@ radius = 5
 area = math.pi * (radius ** 2)
 print("Area of Circle:", area)
 
-
+# Time Conversion
+def seconds_to_hours(seconds):
+    hours = seconds // 3600
+    minutes = (seconds % 3600) // 60
+    remaining_seconds = seconds % 60
+    return f"{hours} hours, {minutes} minutes, {remaining_seconds} seconds"
