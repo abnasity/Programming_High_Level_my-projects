@@ -122,3 +122,16 @@ c_instance = C()
 print(c_instance.method_a())  # Output: Method A from class A
 print(c_instance.method_b())  # Output: Method B from class B
 print(c_instance.method_c())  # Output: Method C from class C
+
+# method overriding example
+class Parent:
+    def greet(self):
+        return "Hello from Parent"
+class Child(Parent):
+    def greet(self):
+        return "Hello from Child"
+# example usage
+parent_instance = Parent()
+child_instance = Child()
+print(parent_instance.greet())  # Output: Hello from Parent
+print(child_instance.greet())  # Output: Hello from Child
