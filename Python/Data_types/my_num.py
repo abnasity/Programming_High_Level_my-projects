@@ -17,3 +17,6 @@ d = 20 / 4     # 5.0 (returns float)
 
 # Floor Division
 e = 20 // 3    # 6 (ignores remainder)
+
+# Modulus (Remainder)
+f = 20 % 3     # 2
