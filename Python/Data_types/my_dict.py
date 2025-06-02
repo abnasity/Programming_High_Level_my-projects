@@ -75,6 +75,13 @@ students_db[new_id] = {
     "grades": [88, 90, 85]
 }
 
+# Calculate average age of student
+student_id = "S003"
+grades = students_db[student_id]["grades"]
+average = sum(grades) / len(grades)
+print(f"{students_db[student_id]['name']}'s average grade: {average}")
+
+
     
     
     
