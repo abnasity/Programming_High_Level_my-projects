@@ -143,3 +143,7 @@ class MyClass:
     @classmethod
     def class_method(cls):
         return cls.class_variable
+    
+# example usage
+my_instance = MyClass()
+print(my_instance.class_method())  # Output: I am a class variable
