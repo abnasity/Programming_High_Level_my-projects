@@ -24,3 +24,8 @@ fruits.remove("banana")
 
 # Check if an item is in the set
 print("apple" in fruits)  # True
+
+
+# Loop through a set
+for fruit in fruits:
+    print(fruit)
