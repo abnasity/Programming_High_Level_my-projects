@@ -31,3 +31,9 @@ print(f"Sum: {a}, Power: {g}, Division: {d}")
 scores = [80, 90, 75, 95]
 average = sum(scores) / len(scores)
 print("Average Score:", average)
+
+# convert celsius to fareneheit
+celsius = 25
+fahrenheit = (celsius * 9/5) + 32
+print("Fahrenheit:", fahrenheit)
+# Calculate the area of a circle
