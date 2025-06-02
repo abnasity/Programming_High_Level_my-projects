@@ -11,3 +11,6 @@ multiline string."""
 # Concatenation
 name = "Alice"
 greeting = "Hello, " + name
+
+# Repitition
+repeat = "Ha" * 3  # Output: "HaHaHa"
