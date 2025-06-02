@@ -44,3 +44,12 @@ print(result)  # Output: (1, 2, [3, 4, 5])
 a, *b = (1, 2, 3, 4)
 print(a)  # 1
 print(b)  # [2, 3, 4]
+
+
+# ✅ Use Cases
+
+#     Returning multiple values from a function
+
+#     As keys in a dictionary (if the items are immutable)
+
+#     Fixed data structures (like coordinates)
