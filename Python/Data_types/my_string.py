@@ -19,3 +19,16 @@ repeat = "Ha" * 3  # Output: "HaHaHa"
 first_char = greeting[0]  # 'H'
 second_char = greeting[1]  # 'e'
 substring = greeting[7:12]  # 'World'
+
+# String methods
+length = len(greeting)  # Length of the string
+s = "  Hello World  "
+
+s.lower()        # '  hello world  '
+s.upper()        # '  HELLO WORLD  '
+s.strip()        # 'Hello World'
+s.replace("World", "Python")  # '  Hello Python  '
+s.split()        # ['Hello', 'World']
+"hello" in s     # True
+
+
