@@ -30,3 +30,7 @@ cat = Cat()
 
 print(animal_sound(dog))  # Output: Dog barks
 print(animal_sound(cat))  # Output: Cat meows
+# example of inheritance
+class Vehicle:
+    def start(self):
+        return "Vehicle started"
