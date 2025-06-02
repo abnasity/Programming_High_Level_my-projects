@@ -22,3 +22,6 @@ students.append("Diana")
 
 # Removing an element
 students.remove("Bob")
+
+# Updating an element
+students[1] = "Carlos"  # Replaces Charlie with Carlos
