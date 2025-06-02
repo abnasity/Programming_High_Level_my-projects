@@ -91,7 +91,13 @@ for student_id, info in students_db.items():
         print(f"  {key.capitalize()}: {value}")
     print("-" * 30)
 
-    
+# Examples of dictionaries in Python
+# Creating a simple dictionary
+simple_dict = {
+    "name": "John",
+    "age": 30,
+    "city": "New York"
+}  
     
     
     
