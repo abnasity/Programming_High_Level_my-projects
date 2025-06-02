@@ -23,3 +23,5 @@ f = 20 % 3     # 2
 
 # Exponentiation
 g = 2 ** 3     # 8 (2 to the power of 3)
+
+print(f"Sum: {a}, Power: {g}, Division: {d}")
