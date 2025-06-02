@@ -21,3 +21,6 @@ fruits.add("orange")
 
 # Remove an item
 fruits.remove("banana")
+
+# Check if an item is in the set
+print("apple" in fruits)  # True
