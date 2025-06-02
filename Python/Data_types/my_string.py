@@ -14,3 +14,8 @@ greeting = "Hello, " + name
 
 # Repitition
 repeat = "Ha" * 3  # Output: "HaHaHa"
+
+# Indexing and slicing
+first_char = greeting[0]  # 'H'
+second_char = greeting[1]  # 'e'
+substring = greeting[7:12]  # 'World'
