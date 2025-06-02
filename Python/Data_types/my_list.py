@@ -13,3 +13,6 @@ different_data_types = [42, 3.14, 'Hello', True, None, ['nested', 'list'], {'key
 
 # A simple list of student names
 students = ["Alice", "Bob", "Charlie"]
+
+#  Accessing elements
+print(students[0])  # Output: Alice
