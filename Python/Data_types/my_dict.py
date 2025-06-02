@@ -65,6 +65,20 @@ for student_id, info in students_db.items():
     for key, value in info.items():
         print(f"  {key.capitalize()}: {value}")
     print("-" * 30)
+    
+#add new student
+new_id = "S004"
+students_db[new_id] = {
+    "name": "Diana",
+    "age": 23,
+    "major": "Biology",
+    "grades": [88, 90, 85]
+}
+
+    
+    
+    
+    
 
 # Creating a dictionary
 student = {
