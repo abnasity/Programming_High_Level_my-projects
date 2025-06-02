@@ -135,3 +135,11 @@ parent_instance = Parent()
 child_instance = Child()
 print(parent_instance.greet())  # Output: Hello from Parent
 print(child_instance.greet())  # Output: Hello from Child
+
+# example of class method   
+class MyClass:
+    class_variable = "I am a class variable"
+
+    @classmethod
+    def class_method(cls):
+        return cls.class_variable
