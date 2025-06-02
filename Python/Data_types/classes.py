@@ -27,3 +27,6 @@ def animal_sound(animal):
 # example usage
 dog = Dog()
 cat = Cat() 
+
+print(animal_sound(dog))  # Output: Dog barks
+print(animal_sound(cat))  # Output: Cat meows
