@@ -41,3 +41,9 @@ students = [
 for student in students:
     avg = sum(student["grades"]) / len(student["grades"])
     print(f"{student['name']}'s average grade: {avg}")
+    
+# Common list operations
+# 1. Creating a list
+my_list = [1, 2, 3, 4, 5]
+
+# 2. Accessing elements
