@@ -84,6 +84,12 @@ print(f"{students_db[student_id]['name']}'s average grade: {average}")
 # Remove a student
 del students_db["S002"]
 
+# Display remaining students after deletion
+for student_id, info in students_db.items():
+    print(f"ID: {student_id}")
+    for key, value in info.items():
+        print(f"  {key.capitalize()}: {value}")
+    print("-" * 30)
 
     
     
