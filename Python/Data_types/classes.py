@@ -80,3 +80,5 @@ class Shape:
     def description(self):
         return "This is a shape"
 class Circle(Shape):
+    def __init__(self):
+        super().__init__()
