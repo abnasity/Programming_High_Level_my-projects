@@ -53,3 +53,9 @@ def seconds_to_hours(seconds):
 # TO use the function
 seconds = 3661
 print(seconds_to_hours(seconds))
+
+# Add items in a cart
+prices = [12.99, 25.50, 9.99]
+total = sum(prices)
+print("Total Cost: $", round(total, 2))
+
