@@ -50,6 +50,13 @@ students_db = {
         "major": "Mathematics",
         "grades": [78, 88, 80]
     },
+    "S003": {
+        "name": "Charlie",
+        "age": 21,
+        "major": "Physics",
+        "grades": [95, 89, 94]
+    }
+}
 
 
 # Creating a dictionary
