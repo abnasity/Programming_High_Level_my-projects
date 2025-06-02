@@ -34,3 +34,16 @@ print(animal_sound(cat))  # Output: Cat meows
 class Vehicle:
     def start(self):
         return "Vehicle started"
+# subclassing
+class Car(Vehicle):
+    def start(self):
+        return "Car started"
+class Bike(Vehicle):
+    def start(self):
+        return "Bike started"
+# example usage
+car = Car()
+bike = Bike()
+print(car.start())  # Output: Car started
+print(bike.start())  # Output: Bike started
+    
