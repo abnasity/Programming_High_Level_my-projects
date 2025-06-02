@@ -58,6 +58,13 @@ students_db = {
     }
 }
 
+# Accessing and Displaying Student Data
+# Print all students
+for student_id, info in students_db.items():
+    print(f"ID: {student_id}")
+    for key, value in info.items():
+        print(f"  {key.capitalize()}: {value}")
+    print("-" * 30)
 
 # Creating a dictionary
 student = {
