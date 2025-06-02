@@ -54,3 +54,10 @@ print(unique_students)  # {'Charlie', 'Alice', 'Bob'}
 inventory = {"apple", "banana", "orange", "apple"}
 print(inventory)  # {'banana', 'orange', 'apple'} (no duplicates)
 # Real-World Example: Social Media Followers
+followers = {"alice", "bob", "charlie", "alice"}
+print(followers)  # {'charlie', 'alice', 'bob'} (no duplicates)
+
+
+
+
+
