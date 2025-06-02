@@ -64,7 +64,9 @@ student["age"] = 21
 # Updating a value
 student["age"] = 21
 
-
+# Looping through the dictionary
+for key, value in student.items():
+    print(key, ":", value)
 
 
 
