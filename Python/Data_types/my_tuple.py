@@ -18,3 +18,6 @@ single = (42,)   # The comma is required!
 # Accessing elements
 print(t[0])  # Output: 1
 print(t2[1])  # Output: 'b'
+
+# without parentheses
+t4 = 1, 2, 3  # This is also a tuple
