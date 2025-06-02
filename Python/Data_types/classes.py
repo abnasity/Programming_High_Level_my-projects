@@ -84,3 +84,5 @@ class Circle(Shape):
         super().__init__()
     def area(self):
         return "Area of Circle"
+    def perimeter(self):
+        return "Perimeter of Circle"
